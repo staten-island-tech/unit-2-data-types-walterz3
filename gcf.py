@@ -1,5 +1,5 @@
 
-
+import math
 z = int(input("What is your number? "))
 y = int(input("What is your 2nd number? "))
 def factors(x, y):
@@ -13,7 +13,7 @@ def factor(r):
     if r%i == 0:
       print(i)
 
+print("the gcd is", math.gcd(z,y))
 
 
-factors(y)
-factor(z)
+
