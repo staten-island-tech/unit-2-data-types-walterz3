@@ -1,19 +1,13 @@
 
-import math
+
 z = int(input("What is your number? "))
 y = int(input("What is your 2nd number? "))
-""" def factors(x, y):
-  print("The factors of",x and y,"are")
-  for i in range (1, x+1 ):
-    if x%i == 0:
-      print(i)
-def factor(r):
-  print("The factors of",r,"are")
-  for i in range (1, r+1):
-    if r%i == 0:
-      print(i) """
-
-print("the gcf is", math.gcd(z,y))
+factor_list=[]
+def factors(x, y):
+  for i in range (1, x+1, y+1):
+    if x%i == 0 and y%i == 0:
+      factor_list.append(i)
 
 
-
+print(factor_list[-1])
+""" (f"The factors of"z"and"y"is"(factor_list[-1])) """
