@@ -13,3 +13,6 @@ for num in factors_num1:
     if num in factors_num2 and gcf < num:
         gcf = num
 print("The greatest common factor of ", num1 , ' and', num2, "are: ", gcf)
+
+
+
