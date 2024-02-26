@@ -5,7 +5,7 @@ z=float(y)
 
 
 if service == "bad":
-    print(f'your total cost is: {z*0}')
+    print(f'your total cost is: {z*1}')
 elif service == "okay":
     print(f'your total cost is: {z*1.15}')
 elif service == "good":
